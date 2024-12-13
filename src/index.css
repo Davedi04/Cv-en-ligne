@@ -1,0 +1,22 @@
+/* Corps du texte avec un poids de 400 */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  background-color: #EEE;
+  height: 100%;
+}
+
+/* Titres et balises <strong> avec un poids de 600 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #1e1e1e;
+}
+
+strong {
+  font-weight: 600;
+  color: #000000;
+}
+
+p {
+  color: #444;
+}

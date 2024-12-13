@@ -1,0 +1,142 @@
+/* src/pages/Styles.css */
+
+.blue-line {
+    border: 0; /* Retirer les bordures par défaut */
+    border-top: 4px solid #0d6efd; /* Couleur bleue */
+    margin: 30px auto; /* Ajouter de l'espace avant et après la ligne */
+    margin-bottom: 60px;
+    width: 30%;
+    opacity: 80;
+}
+
+.blue-line2 {
+  border: 0; /* Retirer les bordures par défaut */
+  border-top: 4px solid #0d6efd; /* Couleur bleue */
+  margin: 30px auto; /* Ajouter de l'espace avant et après la ligne */
+  margin-bottom: 60px;
+  width: 100%;
+  opacity: 80;
+}
+
+.card-img-top {
+    border-radius: 0.5rem;
+    object-fit: cover; /* Recadre l'image pour qu'elle s'adapte */
+    height: 200px; /* Ajustez la hauteur selon vos besoins */
+}
+
+.full-width-image {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    display: block;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section du Diaporama avec Image en Fond */
+.hero-section {
+    position: relative;
+    height: 400px;
+    margin-bottom: 50px;
+    background-image: url('http://localhost:3000/img/img-de-fond-2.jpg'); /* Assurez-vous que l'image est dans le bon dossier */
+    background-size: cover; /* Pour que l'image couvre toute la section */
+    background-position: center; /* Pour centrer l'image */
+    color: white; /* Texte en blanc pour contraster avec l'image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-section h1  {
+    color: #EEE;
+  }
+
+  .hero-section h2 {
+    color: #EEE;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* Légère superposition noire pour améliorer la lisibilité */
+  }
+  
+  .hero-content {
+    z-index: 1; /* Pour s'assurer que le texte est au-dessus de l'image */
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;    
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+  }
+  
+  /* Produits et Témoignages */
+  .product {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  /* Ajout d'une image pleine largeur */
+  .full-width-image2 {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Bouton 'En savoir plus' */
+  .btn-primary {
+    margin-top: 70px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+
+.img-fluid2 {
+  width: 100%;
+  max-height: 150px;
+  object-fit: over;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}  
+
+.about-section {
+  border: 3px solid #EEE; /* Bordure */
+  border-radius: 10px;       /* Coins arrondis */
+  padding: 20px;             /* Espacement intérieur */
+  background-color: #f8f9fa; /* Fond léger pour contraste (facultatif) */
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); /* Ombre pour un effet élégant */
+}
+
+.progress-html .progress-bar {
+  background-color: #da2121; /* Vert */
+}
+
+.progress-css .progress-bar {
+  background-color: #1dc8ce; /* Orange */
+}
+
+.progress-js .progress-bar {
+  
+  background-color: #ff9800; /* Bleu clair (React) */
+}
+
+.progress-php .progress-bar {
+  background-color: #0b5f0e; /* Vert */
+}
+
+.progress-react .progress-bar {
+  background-color: #3a19f1; /* Orange */
+}

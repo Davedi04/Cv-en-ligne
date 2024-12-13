@@ -1,0 +1,30 @@
+footer {
+  border-top: 5px #eee;
+  margin: 50px;
+}
+
+footer p {
+  color: #eee;
+}
+
+.footer-links a {
+  text-decoration: none; /* Enlève la sous-ligne */
+}
+  
+.footer-links ul {
+  list-style-type: none; /* Enlève les puces de la liste */
+  padding: 0;
+  margin: 0;
+}
+  
+.footer-links li {
+  margin-bottom: 2px;
+}
+
+.bg-custom {
+  background-color: #1e1e1e;
+}
+
+footer .col-md-3 {
+  padding: 10px; /* Ajoute 20px de padding tout autour de chaque bloc */
+}
