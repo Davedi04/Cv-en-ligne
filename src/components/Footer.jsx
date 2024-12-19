@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className='container py-5'>
+    <footer className='container-fluid py-5'>
       <div className='row'>
         <div className='col-md-3'>
           <h4>John Doe</h4>
@@ -26,11 +26,11 @@ const Footer = () => {
           <div className='footer-links'>
             <h4>Liens utiles</h4>
             <ul>
-              <li><a href="#Accueil"><span className="blue">&gt;</span></a>Accueil</li>
-              <li><a href="#A propos"><span className="blue">&gt;</span></a>A propos</li>
-              <li><a href="#Services"><span className="blue">&gt;</span></a>Services</li>
-              <li><a href="#Contacts"><span className="blue">&gt;</span></a>Me contacter</li>
-              <li><a href="#Mentions légales"><span className="blue">&gt;</span></a>Mentions légales</li>
+              <li><a href="/"><span className="blue">&gt;</span> Accueil</a></li>
+              <li><a href="/"><span className="blue">&gt;</span> A propos</a></li>
+              <li><a href="/Services"><span className="blue">&gt;</span> Services</a></li>
+              <li><a href="/Contacts"><span className="blue">&gt;</span> Me contacter</a></li>
+              <li><a href="/MentionsLegales"><span className="blue">&gt;</span> Mentions légales</a></li>
             </ul>
           </div>
         </div>
@@ -38,9 +38,9 @@ const Footer = () => {
           <div className='footer-links'>
             <h4>Mes dernières réalisations</h4>
             <ul>
-              <li><a href="#Fresh food"><span className="blue">&gt;</span></a>Fresh food</li>
-              <li><a href="#Restaurant Akira"><span className="blue">&gt;</span></a>Restaurant Akira</li>
-              <li><a href="#Espace bien-être"><span className="blue">&gt;</span></a>Espace bien-être</li>
+              <li><a href="#Fresh food"><span className="blue">&gt;</span> Fresh food</a></li>
+              <li><a href="#Restaurant Akira"><span className="blue">&gt;</span> Restaurant Akira</a></li>
+              <li><a href="#Espace bien-être"><span className="blue">&gt;</span> Espace bien-être</a></li>
             </ul>
           </div>
         </div>
@@ -48,9 +48,9 @@ const Footer = () => {
           <div className='footer-links'>
             <h4>Mes derniers articles</h4>
             <ul>
-              <li><a href="#Coder son site"><span className="blue">&gt;</span></a>Coder son site en HTML/CSS</li>
-              <li><a href="#Vendre ses produits"><span className="blue">&gt;</span></a>Vendre ses produits sur le web</li>
-              <li><a href="#Se positionner"><span className="blue">&gt;</span></a>Se positionner sur Google</li>
+              <li><a href="#Coder son site"><span className="blue">&gt;</span>Coder son site en HTML/CSS</a></li>
+              <li><a href="#Vendre ses produits"><span className="blue">&gt;</span>Vendre ses produits sur le web</a></li>
+              <li><a href="#Se positionner"><span className="blue">&gt;</span>Se positionner sur Google</a></li>
             </ul>
           </div>
         </div>

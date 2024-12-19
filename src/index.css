@@ -1,8 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
 /* Corps du texte avec un poids de 400 */
 body {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
-  background-color: #EEE;
   height: 100%;
 }
 

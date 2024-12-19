@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Header.css'; // Assurez-vous que votre fichier CSS est bien lié
+import './Header.css'; 
 
 const Header = () => {
   const location = useLocation();
   const getClassName = (path) => location.pathname === path ? 'nav-link active' : 'nav-link';
   
   return (
-    <header className='container'>
+    <header className='container-fluid'>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="main-navbar">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
@@ -20,7 +20,7 @@ const Header = () => {
             data-bs-target="#navbarNav" 
             aria-controls="navbarNav" 
             aria-expanded="false" 
-            aria-label="Toggle navigation"
+            aria-label="Toggle navigation"          
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -30,16 +30,16 @@ const Header = () => {
                 <Link className={getClassName("/")} to="/">Accueil</Link>
               </li>
               <li className="nav-item">
-                <Link className={getClassName("/services")} to="/services">Services</Link>
+                <Link className={getClassName("/Services")} to="/Services">Services</Link>
               </li>
               <li className="nav-item">
-                <Link className={getClassName("/realisations")} to="/realisations">Réalisations</Link>
+                <Link className={getClassName("/Realisations")} to="/Realisations">Réalisations</Link>
               </li>
               <li className="nav-item">
-                <Link className={getClassName("/blog")} to="/blog">Blog</Link>
+                <Link className={getClassName("/Blog")} to="/Blog">Blog</Link>
               </li>
               <li className="nav-item">
-                <Link className={getClassName("/contacts")} to="/contacts">Me contacter</Link>
+                <Link className={getClassName("/Contacts")} to="/Contacts">Me contacter</Link>
               </li>
             </ul>
           </div>
@@ -50,4 +50,3 @@ const Header = () => {
 };
 
 export default Header;
-

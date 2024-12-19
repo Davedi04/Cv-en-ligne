@@ -3,10 +3,9 @@ import { ProgressBar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Styles.css';
 
-const Home = () => {
+const Accueil = () => {
   return (
-    <div className="container">
-      {/* Section du Diaporama avec Image en Fond */}
+    <div className="container-fluid">
       <section className="hero-section">
         <div className="hero-overlay">
           <div className="text-center my-5 hero-content">
@@ -19,9 +18,8 @@ const Home = () => {
       <section id='About' className='container py-5 about-section'>    
       <div className='row'>
         <div className="col-md-6">
-          <h2>À propos
+          <h2>À propos</h2>
             <hr className='blue-line2'/>
-          </h2>
           <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi
             une formation d'<strong>intégrateur-développeur web </strong> au CEF. Au cours de cette formation,
             j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>developpement web</strong>.
@@ -66,4 +64,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Accueil;

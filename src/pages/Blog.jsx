@@ -1,8 +1,7 @@
-// src/pages/Blog.jsx
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Styles.css'
+import './Styles.css';
 
 const Blog = () => {
   const articles = [
@@ -51,17 +50,15 @@ const Blog = () => {
   ];
 
   return (
-    <div className="container my-5">
+    <div className="container-fluid my-5">
       <div className='text-center my-5'>
         <img src='/img/img-de-fond.jpg' alt='Image de fond' className='img-fluid full-width-image'></img>
       </div>
-
       <div>
         <h1 className="text-center mb-4">Blog</h1>
         <p className='text-center'>Retrouver ici quelques articles sur le développement web.</p>
         <hr className='blue-line'/>  
-      </div>
-      
+      </div>      
       <div className="row">
         {articles.map((article, index) => (
         <div key={index} className="col-md-4 mb-4">
@@ -76,9 +73,9 @@ const Blog = () => {
             </Card.Body>
             <Card.Footer>{article.publie}</Card.Footer>
           </Card>
-                </div>
-            ))}
         </div>
+        ))}
+      </div>
     </div>
   );
 };

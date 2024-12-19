@@ -1,5 +1,12 @@
 /* Header.css */
 
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+}
+
 #main-navbar {
   background-color: #1e1e1e !important;  /* Couleur de fond gris pour le navbar */
   text-transform: uppercase;
@@ -12,16 +19,16 @@
 }
 
 .nav-link {
-  color: #EEE !important;  /* Couleur des liens */
+  color: #727272!important;  /* Couleur des liens */
 }
 
 
 
 .navbar-toggler-icon {
-  background-color: #EEE; /* Icône du bouton de menu en blanc */
+  background-color: #1e1e1e; /* Icône du bouton de menu en blanc */
 }
 
 .nav-link.active {
-  color: #0d6efd !important; /* Couleur pour l'élément actif */
+  color: #EEE !important; /* Couleur pour l'élément actif */
   font-weight: bold; /* Mettre l'élément actif en gras */
 }

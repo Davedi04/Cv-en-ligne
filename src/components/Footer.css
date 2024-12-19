@@ -1,6 +1,8 @@
 footer {
-  border-top: 5px #eee;
   margin: 50px;
+  padding: 0;
+  border-top: 1px solid rgba(0,0,0,0.01);
+  background-color: #eee;
 }
 
 footer p {
@@ -9,22 +11,30 @@ footer p {
 
 .footer-links a {
   text-decoration: none; /* Enlève la sous-ligne */
+  color: #1e1e1e;
 }
   
 .footer-links ul {
-  list-style-type: none; /* Enlève les puces de la liste */
+  list-style-type: none; 
   padding: 0;
   margin: 0;
 }
   
 .footer-links li {
-  margin-bottom: 2px;
+  margin-bottom: px;
 }
 
 .bg-custom {
   background-color: #1e1e1e;
+  padding: 0;
+  margin: 0px;
 }
 
 footer .col-md-3 {
-  padding: 10px; /* Ajoute 20px de padding tout autour de chaque bloc */
+  padding: 20px; /* Ajoute 20px de padding tout autour de chaque bloc */
 }
+
+.blue {
+  color: #0d6efd;
+}
+
