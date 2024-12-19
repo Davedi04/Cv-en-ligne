@@ -6,42 +6,42 @@ import './Styles.css';
 const Blog = () => {
   const articles = [
     { 
-      image: '/img/img-1.jpg',
+      image: '/img/coder-1.jpg',
       title: 'Coder son site en HTML / CSS',
       description: 'Quelques exemples de texte rapides pour le contenu de la carte 1.',
       link: '/article1',
       publie: 'Publier le 22 août 2022'
     },
     {
-      image: '/img/img-2.png',
+      image: '/img/croissance-2.jpg',
       title: 'Vendre ses produits sur le web',
       description: 'Quelques exemples de texte rapides pour le contenu de la carte 2.',
       link: '/article2',
       publie: 'Publier le 20 août 2022'
     },
     {
-      image: '/img/img-3.jpg',
+      image: '/img/google-3.jpg',
       title: 'Se positionner sur Google',
       description: 'Quelques exemples de texte rapides pour le contenu de la carte 3.',
       link: '/article3',
       publie: 'Publier le 1 août 2022'
     },
     { 
-      image: '/img/img-4.jpg',   
+      image: '/img/screens-4.jpg',   
       title: 'Coder en responsive design',
       description: 'Quelques exemples de texte rapides pour le contenu de la carte 4.',
       link: '/article4',
       publie: 'Publier le 31 jillet 2022'
     },
     {
-      image: '/img/img-5.jpg',  
+      image: '/img/seo-5.jpg',  
       title: 'Technique de référencement',
       description: 'Quelques exemples de texte rapides pour le contenu de la carte 5.',
       link: '/article5',
       publie: 'Publier le 30 juillet 2022'
     },
     {
-      image: '/img/img-6.jpg',
+      image: '/img/technos-6.png',
       title: 'Apprendre à coder',
       description: 'Quelques exemples de texte rapides pour le contenu de la carte 6.',
       link: '/article6',
@@ -52,7 +52,7 @@ const Blog = () => {
   return (
     <div className="container-fluid my-5">
       <div className='text-center my-5'>
-        <img src='/img/img-de-fond.jpg' alt='Image de fond' className='img-fluid full-width-image'></img>
+        <img src='/img/banner.jpg' alt='Image de fond' className='img-fluid full-width-image'></img>
       </div>
       <div>
         <h1 className="text-center mb-4">Blog</h1>

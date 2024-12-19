@@ -6,21 +6,21 @@ import './Styles.css';
 const Realisations = () => {
     const article = [
         { 
-            image: '/img/img-7.jpg',
+            image: '/img/fresh-food-7.jpg',
             title: 'Fresh food',
             description: 'Réalisation de site avec une commande en ligne.',
             link: '/article1',
             publie: 'Site réalisé avec PHP et MySQL'
         },
         { 
-            image: '/img/img-8.jpg',
+            image: '/img/restaurant-japonais-8.jpg',
             title: 'Restaurant Akira', 
             description: 'Réalisation de site vitrine.',
             link: '/article2',
             publie: 'Site réalisé avec wordPress'
         },
         { 
-            image: '/img/img-9.jpg',
+            image: '/img/espace-bien-etre-9.jpg',
             title: 'Espace bien-être',
             description: 'Réalisation de site vitrine pour un praticien de bien-être.',
             link: '/article3',
@@ -30,7 +30,7 @@ const Realisations = () => {
     return (
         <div className="container-fluid text-center my-5">
             <div className='my-5'>
-                <img src='/img/img-de-fond.jpg' alt='Image de fond' className='img-fluid full-width-image'></img>
+                <img src='/img/banner.jpg' alt='Image de fond' className='img-fluid full-width-image'></img>
             </div>
             <div>
                 <h1 className=" mb-4">PORTFOLIO</h1>

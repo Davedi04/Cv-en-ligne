@@ -31,7 +31,7 @@ const Accueil = () => {
         </div>
         <div className="col-md-6">
           <img 
-            src='./img/img-photo-1.jpg' 
+            src='./img/john-doe-about.jpg' 
             alt="John Doe" 
             className="img-fluid2" 
             style={{ maxWidth: '100%' }} 
