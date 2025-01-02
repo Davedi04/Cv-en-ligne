@@ -8,27 +8,35 @@ header {
 }
 
 #main-navbar {
-  background-color: #1e1e1e !important;  /* Couleur de fond gris pour le navbar */
+  background-color: #1e1e1e !important; /* Couleur de fond gris pour le navbar */
   text-transform: uppercase;
   padding-left: 30px;
   padding-right: 30px;
 }
 
 .navbar-brand {
-  color: #EEE !important;  /* Couleur du nom du site */
+  color: #eee !important; /* Couleur du nom du site */
 }
 
 .nav-link {
-  color: #727272!important;  /* Couleur des liens */
+  color: #727272 !important; /* Couleur des liens */
 }
 
-
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.8) !important; /* Blanc avec transparence */
+  transition: color 0.3s ease; /* Transition fluide */
+}
 
 .navbar-toggler-icon {
   background-color: #1e1e1e; /* Icône du bouton de menu en blanc */
 }
 
 .nav-link.active {
-  color: #EEE !important; /* Couleur pour l'élément actif */
+  color: #eee !important; /* Couleur pour l'élément actif */
   font-weight: bold; /* Mettre l'élément actif en gras */
+}
+
+.Services-item:hover .Services-icon {
+  color: #115097; /* Couleur bleue claire pour l'icône */
+  transition: color 0.3s ease; /* Transition fluide */
 }

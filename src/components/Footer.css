@@ -1,7 +1,7 @@
 footer {
   margin: 50px;
   padding: 0;
-  border-top: 1px solid rgba(0,0,0,0.01);
+  border-top: 1px solid rgba(0, 0, 0, 0.01);
   background-color: #eee;
 }
 
@@ -13,13 +13,13 @@ footer p {
   text-decoration: none; /* Enlève la sous-ligne */
   color: #1e1e1e;
 }
-  
+
 .footer-links ul {
-  list-style-type: none; 
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
-  
+
 .footer-links li {
   margin-bottom: px;
 }
@@ -38,3 +38,18 @@ footer .col-md-3 {
   color: #0d6efd;
 }
 
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #298eff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#backToTop:hover {
+  background-color: #298eff;
+}
